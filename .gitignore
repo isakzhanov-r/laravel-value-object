@@ -1,0 +1,11 @@
+.idea/
+vendor/
+build/
+*.cache
+*.clover
+*.orig
+
+ocular.phar
+
+composer.lock
+

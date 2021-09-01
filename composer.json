@@ -1,0 +1,39 @@
+{
+    "name": "isakzhanov-r/laravel-value-object",
+    "description": "Value Object for Eloquent",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "isakzhanov-r",
+            "email": "isakzhanov.r@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^7.4|^8.0",
+        "ext-pdo": "*",
+        "ext-json": "*",
+        "illuminate/database": "^7.0|^8.0",
+        "illuminate/support": "^7.0|^8.0"
+    },
+    "require-dev": {
+        "mockery/mockery": "^0.9|^1.0",
+        "orchestra/testbench": "^3.8|^4.0|^5.0|^6.0",
+        "phpunit/phpunit": "^8.0|^9.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "IsakzhanovR\\ValueObject\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
+    },
+    "config": {
+        "preferred-install": "dist",
+        "sort-packages": true
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true
+}
